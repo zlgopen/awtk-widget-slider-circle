@@ -241,6 +241,9 @@ static ret_t slider_circle_get_prop(widget_t* widget, const char* name, value_t*
   } else if (tk_str_eq(SLIDER_CIRCLE_PROP_FORMAT, name)) {
     value_set_str(v, slider_circle->format);
     return RET_OK;
+  } else if (tk_str_eq(WIDGET_PROP_INPUTING, name)) {
+    value_set_bool(v, slider_circle->dragging);
+    return RET_OK;
   }
 
   return RET_NOT_FOUND;
