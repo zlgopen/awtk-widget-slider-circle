@@ -1,0 +1,9 @@
+<slider_circle>
+  <style name="default" font_size="18" bg_color="black" fg_color="#00f000">
+    <normal text_color="black" dragger_color="#E00000"/>
+    <pressed text_color="black" dragger_color="#FF0000"/>
+  </style>
+  <style name="img" font_size="18" dragger_color="red" bg_color="#00f6aa" fg_image="progress_circle" >
+    <normal text_color="black" />
+  </style>
+</slider_circle>

@@ -1,0 +1,45 @@
+<window theme="main" >
+  <view x="c" y="m" w="900" h="600" children_layout="default(w=100,h=100,s=5,m=5)">
+    <slider_circle value="30"/>
+    <slider_circle value="30" counter_clock_wise="true"/>
+    <slider_circle start_angle="0" end_angle="360" line_cap="round" value="30" step="10"/>
+    <slider_circle start_angle="0" end_angle="360" line_cap="round" value="30" counter_clock_wise="true"/>
+    <slider_circle start_angle="120" end_angle="420" line_cap="round" value="30"/>
+    <slider_circle start_angle="120" end_angle="420" line_cap="round" value="30" counter_clock_wise="true"/>
+    <slider_circle start_angle="30" end_angle="330" line_cap="round" value="30"/>
+    <slider_circle start_angle="30" end_angle="330" line_cap="round" value="30" counter_clock_wise="true"/>
+    
+    <slider_circle value="2" bg_line_width="2" fg_line_width="8" min="1" max="3" step="0.1" format="%2.2lf"/>
+    <slider_circle value="200" counter_clock_wise="true" bg_line_width="2" fg_line_width="8"  min="100" max="300"/>
+    <slider_circle start_angle="0" end_angle="360" line_cap="square" value="30" bg_line_width="2" fg_line_width="8"/>
+    <slider_circle start_angle="0" end_angle="360" line_cap="butt" value="30" counter_clock_wise="true" bg_line_width="2" fg_line_width="8"/>
+    <slider_circle start_angle="120" end_angle="420" line_cap="round" value="30" bg_line_width="2" fg_line_width="8"/>
+    <slider_circle start_angle="120" end_angle="420" line_cap="round" value="30" counter_clock_wise="true" bg_line_width="2" fg_line_width="8"/>
+    <slider_circle start_angle="30" end_angle="330" line_cap="round" value="30" bg_line_width="2" fg_line_width="8"/>
+    <slider_circle start_angle="30" end_angle="330" line_cap="round" value="30" counter_clock_wise="true" bg_line_width="2" fg_line_width="8"/>
+    
+    <slider_circle value="30" bg_line_width="8" fg_line_width="8"/>
+    <slider_circle value="30" counter_clock_wise="true" bg_line_width="8" fg_line_width="8"/>
+    <slider_circle start_angle="0" end_angle="360" line_cap="round" value="30" bg_line_width="8" fg_line_width="8"/>
+    <slider_circle start_angle="0" end_angle="360" line_cap="round" value="30" counter_clock_wise="true" bg_line_width="8" fg_line_width="8"/>
+    <slider_circle start_angle="120" end_angle="420" line_cap="round" value="30" bg_line_width="8" fg_line_width="8"/>
+    <slider_circle start_angle="120" end_angle="420" line_cap="round" value="30" counter_clock_wise="true" bg_line_width="8" fg_line_width="8"/>
+    <slider_circle start_angle="30" end_angle="330" line_cap="round" value="30" bg_line_width="8" fg_line_width="8"/>
+    <slider_circle start_angle="30" end_angle="330" line_cap="round" value="30" counter_clock_wise="true" bg_line_width="8" fg_line_width="8"/>
+    
+    <slider_circle value="30" bg_line_width="8" fg_line_width="8" header_size="2" show_text="false"/>
+    <slider_circle value="30" counter_clock_wise="true" bg_line_width="8" fg_line_width="8" style="img" show_text="false"/>
+    <slider_circle start_angle="0" end_angle="360" line_cap="round" value="30" bg_line_width="8" fg_line_width="8" style="img" format="%d度"/>
+    <slider_circle start_angle="0" end_angle="360" line_cap="round" value="30" counter_clock_wise="true" bg_line_width="8" fg_line_width="8"
+      style="img"/>
+    <slider_circle start_angle="120" end_angle="420" line_cap="round" value="30" bg_line_width="8" fg_line_width="8"
+      style="img"/>
+    <slider_circle start_angle="120" end_angle="420" line_cap="round" value="30" counter_clock_wise="true" bg_line_width="8" fg_line_width="8"
+      style="img"/>
+    <slider_circle start_angle="30" end_angle="330" line_cap="round" value="30" bg_line_width="8" fg_line_width="8"
+      style="img"/>
+    <slider_circle start_angle="30" end_angle="330" line_cap="round" value="30" counter_clock_wise="true" bg_line_width="8" fg_line_width="8"
+      style="img"/>
+  </view>
+  <button x="c" y="b:30" w="168" h="36" text="Quit" on:click="quit()" />
+</window>
