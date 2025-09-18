@@ -1,4 +1,4 @@
-# awtk-widget-slider_circle
+# awtk-widget-slider-circle
 
 slider_circle 控件。
 
